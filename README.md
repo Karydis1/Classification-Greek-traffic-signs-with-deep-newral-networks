@@ -15,7 +15,6 @@ This dataset has more than 50,000 images of 43 classes.**
     - Local Histogram Equalization.
     - Normalization.
 - **Design a Model Architecture.**
-    - LeNet-5.
     - VGGNet.
 - **Model Training and Evaluation.**
 - **Testing the Model Using the Test Set.**
@@ -27,7 +26,7 @@ I'll explain each step in details below.
 -  Ubuntu 16.04
 -  Anaconda 5.0.1
 -  Python 3.6.2
--  TensorFlow 0.12.1 (GPU support)
+-  TensorFlow 0.12.1 (CPU support)
 
 ---
 ## Step 1: Load The Data
