@@ -62,7 +62,7 @@ Number of classes = 43
 
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/Train.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/Train.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -70,14 +70,14 @@ Number of classes = 43
 
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/Test.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/Test.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
 </figure>
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/Valid.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/Valid.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -88,21 +88,21 @@ Number of classes = 43
 
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/TrainHist.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/TrainHist.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
 </figure>
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/TestHist.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/TestHist.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
 </figure>
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/ValidHist.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/ValidHist.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -125,7 +125,7 @@ In this step, we will apply several preprocessing steps to the input images to a
 2. **Grayscaling**: In their paper ["Traffic Sign Recognition with Multi-Scale Convolutional Networks"](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) published in 2011, P. Sermanet and Y. LeCun stated that using grayscale images instead of color improves the ConvNet's accuracy. We will use `OpenCV` to convert the training images into grey scale.
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/Gray.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/Gray.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -134,7 +134,7 @@ In this step, we will apply several preprocessing steps to the input images to a
 3. **Local Histogram Equalization**: This technique simply spreads out the most frequent intensity values in an image, resulting in enhancing images with low contrast. Applying this technique will be very helpfull in our case since the dataset in hand has real world images, and many of them has low contrast. We will use `skimage` to apply local histogram equalization to the training images.
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/Equalized.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/Equalized.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -143,7 +143,7 @@ In this step, we will apply several preprocessing steps to the input images to a
 4. **Normalization**: Normalization is a process that changes the range of pixel intensity values. Usually the image data should be normalized so that the data has mean zero and equal variance.
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/Normalized.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/Normalized.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -366,7 +366,7 @@ We've been able to reach a **Test accuracy of 97.6%**. A remarkable performance.
 Now we'll plot the confusion matrix to see where the model actually fails.
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/cm.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/cm.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -382,7 +382,7 @@ In this step, we will use the model to predict traffic signs type of 5 random im
 Number of new testing examples:  5
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/NewImg.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/NewImg.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
@@ -395,7 +395,7 @@ For instance, we have easy to predict signs like the "Stop" and the "No entry". 
 On the other hand, we have signs belong to classes where has poor accuracy, like the "Speed limit" sign, because as stated above it turns out that the various speed limits are sometimes misclassified among themselves, and the "Pedestrians" sign, because traffic signs with traingular shape are misclassified among themselves.
 
 <figure>
- <img src="./traffic-signs-data/Screenshots/TopSoft.png" width="1072" alt="Combined Image" />
+ <img src="./traffic-signs-data/TopSoft.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
