@@ -411,6 +411,17 @@ The VGGNet model was able to predict the right class for each of the 5 new test 
 In all cases, the model was very certain (80% - 100%).
 
 
+## Step 7: Testing and trainning the new dataset with Greek Traffic Signs. 
+
+<figure>
+ <img src="./traffic-signs-data/template.diploma.png" width="1072" alt="Combined Image" />
+ <figcaption>
+ <p></p> 
+ </figcaption>
+</figure>
+
+
+
 ---
 
 ## Conclusion
