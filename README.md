@@ -410,8 +410,16 @@ And in the "Speed limit" sign, we can observe that the model accurately predicte
 The VGGNet model was able to predict the right class for each of the 5 new test images. Test Accuracy = 100.0%.
 In all cases, the model was very certain (80% - 100%).
 
+## Step 7: Calibration Greek Traffic Images with Toolbox Camera Calibration in Matlab
+<figure>
+ <img src="./traffic-signs-data/test_calibration.png" width="1072" alt="Combined Image" />
+ <figcaption>
+ <p></p> 
+ </figcaption>
+</figure>
 
-## Step 7: Testing and trainning the new dataset with Greek Traffic Signs. 
+
+## Step 8: Testing and trainning the new dataset with Greek Traffic Signs. 
 
 <figure>
  <img src="./traffic-signs-data/template.diploma.png" width="1072" alt="Combined Image" />
@@ -419,6 +427,9 @@ In all cases, the model was very certain (80% - 100%).
  <p></p> 
  </figcaption>
 </figure>
+
+
+
 
 
 
